@@ -1,0 +1,96 @@
+
+body{
+    font-family: system-ui, sans-serif;
+    background-color: rgb(80, 79, 79);
+    color: palevioletred;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;   
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 0.9rem;
+}
+
+h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 0.7rem;
+    margin-bottom: 2.5rem;
+}
+
+
+.social_buttons{
+    display: flex;
+    gap: 12px;
+}
+
+.git_button{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #24292e;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.git_button:hover{
+    background: #333;
+    box-shadow: 0 0 10px #333;
+    transform: translateY(-2px)
+}
+
+.linkedin_button{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #24292e;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.linkedin_button:hover{
+    background: #333;
+    box-shadow: 0 0 10px #333;
+    transform: translateY(-2px)
+}
+.dropdowns{
+    text-align: left;
+    margin: 0;
+}
+section.dropdowns{
+    text-align: left;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    padding-left: 0;
+}
+
+details{
+    margin: 1rem 0;
+    padding: 0;
+    border: none;
+}
+
+details summary{
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 0.4rem;
+}
+
+
+details p{
+    margin: 0.5rem 0 0;
+    line-height: 1.5;
+}

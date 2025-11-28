@@ -1,8 +1,8 @@
 
 body{
     font-family: system-ui, sans-serif;
-    background-color: rgb(80, 79, 79);
-    color: palevioletred;
+    background-color: rgb(42 98 143);
+    color: rgb(226 109 92);
     scroll-behavior: smooth;
     display: flex;
     flex-direction: column;

@@ -1,8 +1,8 @@
 
 body{
     font-family: system-ui, sans-serif;
-    background-color: rgb(42 98 143);
-    color: rgb(226 109 92);
+    background-color: rgb(226 109 92);
+    color: rgb(42 98 143);
     scroll-behavior: smooth;
     display: flex;
     flex-direction: column;
@@ -18,13 +18,26 @@ h1{
     margin-bottom: 0.9rem;
 }
 
-h3{
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 0.7rem;
-    margin-bottom: 2.5rem;
+h3 {
+  font-weight: 200;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 1.9em;
+  padding: 0;
+  line-height: 0.8em !important;
+  text-transform: none;
+  font-weight: 600;
 }
 
+h3 span {
+  color: black;
+  animation-delay: 2s;
+  font-weight: 600;
+}
+
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
 
 .social_buttons{
     display: flex;

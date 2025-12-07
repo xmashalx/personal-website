@@ -93,15 +93,22 @@ h3 span {
     padding: 1rem;
 }
 
-.main_nav {
-    margin-top: 1.5rem;
+
+.nav-area {
     display: flex;
-    gap: 1rem;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
 }
 
-.main_nav a {
-    text-decoration: none;
-    padding: 8px 12px;
-    background: rgba(0,0,0,0.08);
-    border-radius: 6px;
+.nav-item img {
+    width: 70px;
+    margin-bottom: 10px;
 }
+
+.nav-item a {
+    color: #27f0c9;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+

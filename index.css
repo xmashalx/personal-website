@@ -9,7 +9,11 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin:0;   
+    margin: 40;
+    border: 5px solid rgb(42 98 143);
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;;
 }
 
 h1{
@@ -30,7 +34,7 @@ h3 {
 }
 
 h3 span {
-  color: black;
+  color: rgb(42 98 143);
   animation-delay: 2s;
   font-weight: 600;
 }
@@ -77,33 +81,24 @@ h3 span {
     box-shadow: 0 0 10px #333;
     transform: translateY(-2px)
 }
-.dropdowns{
-    text-align: left;
-    margin: 0;
-}
-section.dropdowns{
+
+
+.content {
     text-align: left;
     max-width: 600px;
     margin: 2rem auto;
     padding: 1rem;
-    padding-left: 0;
 }
 
-details{
-    margin: 1rem 0;
-    padding: 0;
-    border: none;
+.main_nav {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
 }
 
-details summary{
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 1.2rem;
-    padding: 0.4rem;
-}
-
-
-details p{
-    margin: 0.5rem 0 0;
-    line-height: 1.5;
+.main_nav a {
+    text-decoration: none;
+    padding: 8px 12px;
+    background: rgba(0,0,0,0.08);
+    border-radius: 6px;
 }

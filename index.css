@@ -1,8 +1,8 @@
 
 body{
     font-family: system-ui, sans-serif;
-    background-color: rgb(226 109 92);
-    color: rgb(42 98 143);
+    background-color: #F5DBCB;
+    color: #C1666B;
     scroll-behavior: smooth;
     display: flex;
     flex-direction: column;
@@ -10,13 +10,13 @@ body{
     align-items: center;
     height: 100vh;
     margin: 40;
-    border: 5px solid rgb(42 98 143);
+    border: 5px solid #C1666B;
     border-radius: 20px;
     padding: 10px;
     box-sizing: border-box;;
 }
 
-h1 {
+.index_name h1 {
     font-size: 6rem;
     font-weight: 900;
     letter-spacing: 0.05em;
@@ -24,6 +24,13 @@ h1 {
     text-transform: uppercase;
 }
 
+.h1 {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
 
 h3 {
   font-weight: 200;
@@ -37,7 +44,7 @@ h3 {
 }
 
 h3 span {
-  color: rgb(42 98 143);
+  color: #C1666B;
   animation-delay: 2s;
   font-weight: 600;
 }
@@ -71,7 +78,7 @@ h3 span {
 .linkedin_button{
     display: inline-block;
     padding: 10px 20px;
-    background: #24292e;
+    background: #0072b1;
     color: white;
     border-radius: 8px;
     text-decoration: none;
@@ -80,7 +87,7 @@ h3 span {
 }
 
 .linkedin_button:hover{
-    background: #333;
+    background: #005481;
     box-shadow: 0 0 10px #333;
     transform: translateY(-2px)
 }
@@ -107,7 +114,7 @@ h3 span {
 }
 
 .nav-item a {
-    color: #27f0c9;
+    color: #C1666B;
     font-size: 1.2rem;
     text-decoration: none;
 }

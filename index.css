@@ -8,12 +8,21 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 40;
-    border: 5px solid #C1666B;
-    border-radius: 20px;
-    padding: 10px;
-    box-sizing: border-box;;
+    padding: 40px;
+    min-height: 100vh;
+}
+
+.page_frame {
+    border: 12px solid #C1666B;
+    border-radius: 30px;
+    padding: 40px 60px;
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .index_name h1 {
@@ -56,6 +65,7 @@ h3 span {
 .social_buttons{
     display: flex;
     gap: 12px;
+    align-items: center;
 }
 
 .git_button{

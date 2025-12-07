@@ -3,13 +3,12 @@ body{
     font-family: system-ui, sans-serif;
     background-color: #F5DBCB;
     color: #C1666B;
-    scroll-behavior: smooth;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 40px;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .page_frame {
@@ -19,7 +18,7 @@ body{
     width: 90%;
     max-width: 1200px;
     text-align: center;
-    min-height: calc(100vh - 80px);
+    min-height: calc(80vh - 80px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,6 +63,7 @@ h3 span {
 
 .social_buttons{
     display: flex;
+    justify-content: center;
     gap: 12px;
     align-items: center;
 }
